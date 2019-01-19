@@ -1,13 +1,12 @@
 # PersianDatePicker
 An extension to have Persian Date PickerView
-
->  یک اکستنشن ساده برای انتخاب تاریخ شمسی و درصورت نیاز تبدیل آن به تاریخ میلادی.
-
+> <div dir="rtl">یک اکستنشن ساده برای انتخاب تاریخ شمسی و درصورت نیاز تبدیل آن به تاریخ میلادی.</div>
 -----
 
 
+
 ## Authors
-- [Farid Daryabar](https://www.linkedin.com/in/fariddaryabar) ::
+- [Farid Daryabar](https://www.linkedin.com/in/fariddaryabar)
 
 -----
 
