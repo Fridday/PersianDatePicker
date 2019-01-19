@@ -14,6 +14,8 @@
 		7599663521F31E4700105525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7599663321F31E4700105525 /* LaunchScreen.storyboard */; };
 		7599664021F31E4700105525 /* PersianDatePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599663F21F31E4700105525 /* PersianDatePickerTests.swift */; };
 		7599664B21F31E4700105525 /* PersianDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599664A21F31E4700105525 /* PersianDatePickerUITests.swift */; };
+		7599665921F3226700105525 /* PersianDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599665821F3226700105525 /* PersianDateViewController.swift */; };
+		7599665E21F378DA00105525 /* PersianDatePicker+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599665D21F378DA00105525 /* PersianDatePicker+ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7599664621F31E4700105525 /* PersianDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersianDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7599664A21F31E4700105525 /* PersianDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePickerUITests.swift; sourceTree = "<group>"; };
 		7599664C21F31E4700105525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7599665821F3226700105525 /* PersianDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDateViewController.swift; sourceTree = "<group>"; };
+		7599665D21F378DA00105525 /* PersianDatePicker+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersianDatePicker+ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		7599662921F31E4500105525 /* PersianDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				7599665A21F3781B00105525 /* PersianDatePickerExtentions */,
 				7599662A21F31E4500105525 /* AppDelegate.swift */,
 				7599662C21F31E4500105525 /* ViewController.swift */,
+				7599665821F3226700105525 /* PersianDateViewController.swift */,
 				7599662E21F31E4500105525 /* Main.storyboard */,
 				7599663121F31E4700105525 /* Assets.xcassets */,
 				7599663321F31E4700105525 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				7599664C21F31E4700105525 /* Info.plist */,
 			);
 			path = PersianDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		7599665A21F3781B00105525 /* PersianDatePickerExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				7599665D21F378DA00105525 /* PersianDatePicker+ViewController.swift */,
+			);
+			path = PersianDatePickerExtentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7599662D21F31E4500105525 /* ViewController.swift in Sources */,
+				7599665E21F378DA00105525 /* PersianDatePicker+ViewController.swift in Sources */,
 				7599662B21F31E4500105525 /* AppDelegate.swift in Sources */,
+				7599665921F3226700105525 /* PersianDateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WB623YGGA;
 				INFOPLIST_FILE = PersianDatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WB623YGGA;
 				INFOPLIST_FILE = PersianDatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
